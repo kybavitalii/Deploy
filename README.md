@@ -10,7 +10,7 @@ Add these two lines to the scripts section of the package.json file:<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;"predeploy": "npm run build",<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;"deploy": "gh-pages -d dist"<br/>
 In the terminal, run<br/>
-<p style="color:blue">npm install --save-dev gh-pages</p><br/>
+<font color="blue">npm install --save-dev gh-pages</font><br/>
 You should see these lines of JSON added to your package.json file:<br/>
 "devDependencies": {<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;"gh-pages": "^1.1.0"<br/>
